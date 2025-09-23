@@ -67,7 +67,7 @@ jupyter notebook fine_tuning_phi4.ipynb
 ### Génération d’interprétation
 
 ```bash
-python generation_interpretation.py
+python generate_interpretation.py
 ```
 
 ### Interface Streamlit
