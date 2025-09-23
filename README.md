@@ -94,6 +94,11 @@ streamlit run interface_final.py
 * Les données patients doivent rester anonymisées avant utilisation.
 * Pour des performances optimales : GPU ≥16 Go VRAM recommandé (ex. RTX 4090).
 
+
+---
+## ✨ **Remerciment**
+Je tiens à exprimer ma gratitude à l’équipe du CIRCB, particulièrement au Directeur Général le Professeur Alexis NDJOLO, à l’équipe du laboratoire de virologie sous la supervision du Dr FOKAM Joseph, le chef du laboratoire, et M. TAKOU Désiré, le Major du laboratoire. Je ne saurais terminer sans adresser mes sincères remerciements à tout le personnel du CIRCB pour leur disponibilité. 
+
 ---
 
 ## ✨ **Auteurs**
