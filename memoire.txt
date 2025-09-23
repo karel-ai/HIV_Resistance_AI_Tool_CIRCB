@@ -1,0 +1,261 @@
+Mutations Majeures de Résistance du VIH-1 aux Médicaments (mise à jour 28 mars 2024)
+ 
+ 1. Inhibiteurs Nucléosidiques de la Transcriptase Inverse (INTI / NRTI)
+
+* **Mutations clés :**
+  M41L, K65R/N, D67N/G/E, T69D/Ins, K70R/E, L74V/I, V75M/T/A/S, F77L, Y115F, F116Y, Q151M, M184V/I, L210W, T215F/Y/S/C/D/N, K219Q/E/N/R
+TAMs (Thymidine Analog Mutations) : M41L, D67N, K70R, L210W, T215F/Y, K219Q/E
+
+Non-TAMs : K65R/N, L74V/I, V75M/T/A/S, F77L, Y115F, F116Y, Q151M, M184V/I
+Insertions ou autres MDR : T69D/Ins
+* **Effets :**
+  * Réduction de la susceptibilité aux INTI.
+  * Les TAMs favorisent la multirésistance aux INTI en facilitant le “déblocage de l’amorce” et réduisent l’efficacité de plusieurs médicaments.
+  * Les non-TAMs empêchent l’incorporation des INTI.
+
+MDR (Multidrug Resistance) : combinaisons de mutations provoquant résistance multiple, par ex. insertions T69, Q151M.
+  * MDR (Multidrug Resistance) : combinaisons de mutations provoquant résistance multiple, par ex. insertions T69, Q151M.
+* **Notes spécifiques :**
+
+  * **M184V/I :** résistance élevée à 3TC et FTC, mais augmente la susceptibilité au TFV et AZT et réduit la réplication virale.
+  * **K65R :** réduit la susceptibilité au TFV, mais en combinaison avec M184V, l’effet est atténué.
+  * **TFV/TDF/TAF :** sélection de mutations supplémentaires incertaines (A62V, K65N, K70Q/N/T/del, L74I).
+
+ 2. Inhibiteurs Non Nucléosidiques de la Transcriptase Inverse (INNTI / NNRTI)
+
+* **Positions clés :** 100, 101, 103, 106, 181, 188, 190, 225, 227, 230
+* **Mutations :** L100I, K101E/P, K103N/S, V106A/M, Y181C/I/V, Y188L/H/C, G190A/S/E, P225H, M230L, Y318F
+* **Effets :**
+
+  * Réduction variable de la susceptibilité aux NNRTI : DOR, EFV, ETR, RPV, NVP.
+  * Combinaisons synergiques :
+
+    * V179D + K103R → résistance accrue à NVP et EFV
+    * Y181C + V179F → résistance élevée à ETR et RPV
+  * Certaines mutations rares (G190Q, P225H, L234I, Y318F) peuvent produire des résistances élevées ou intermédiaires.
+
+ 3. Inhibiteurs de l’Intégrase (INSTI)
+
+* **Positions clés :** 66, 92, 97, 118, 138, 140, 143, 148, 155, 263
+* **Mutations :** T66A/I/K, E92Q/V, T97A, G118R, E138A/K/T, G140A/C/S, Y143C/H/R/S, Q148H/R/K, N155H, R263K
+* **Effets :**
+
+  * Réduction de la susceptibilité aux INSTI : BIC, CAB, DTG, EVG, RAL
+  * T97A est polymorphe et accentue la résistance en combinaison avec Q148 + G140/E138
+  * Mutations accessoires courantes : L74M, V151L, E157Q, G163K/R, D232N
+  * Certaines mutations rares en dehors de l’IN peuvent également réduire la susceptibilité.
+
+ 4. Inhibiteurs de Protéase (IP / PI)
+
+* **Positions clés :** 10, 20, 23, 24, 30, 32, 33, 46, 47, 48, 50, 53, 54, 76, 82, 84, 88, 90
+* **Mutations majeures :**
+  L10F/R/Y, V11I/L, K20T/V, L23I, L24I, D30N, I47V/A, I50L/V, F53L/Y, I54V/L/M/A/T/S, L76V, V82A/T/F/S/C/M/L, I84V/A/C, N88D/S/T/G, L89V/T
+* **Effets :**
+
+  * Réduction de la susceptibilité aux IP : ATV/r, DRV/r, LPV/r
+  * Hypersusceptibilité : I50L (sauf ATV), L76V (ATV)
+  * Mutations accessoires : L10F, V11I/L, L33F, T74P, L89V peuvent moduler la résistance.
+
+ Tableau synthétique par classe
+
+| Classe | Médicaments             | Mutations majeures                                                                                                                       |
+| INTI   | 3TC, FTC, ABC, TFV, AZT | M41L, K65R/N, D67N/G/E, T69D/Ins, K70R/E, L74V/I, V75M/T/A/S, F77L, Y115F, F116Y, Q151M, M184V/I, L210W, T215F/Y/S/C/D/N, K219Q/E/N/R    |
+| INNTI  | DOR, EFV, ETR, RPV, NVP | L100I, K101E/P, K103N/S, V106A/M, Y181C/I/V, Y188L/H/C, G190A/S/E, P225H, M230L, Y318F                                                   |
+| INSTI  | BIC, CAB, DTG, EVG, RAL | T66A/I/K, E92Q/V, T97A, G118R, E138A/K/T, G140A/C/S, Y143C/H/R/S, Q148H/R/K, N155H, R263K                                                |
+| IP     | ATV/r, DRV/r, LPV/r     | L10F/R/Y, V11I/L, K20T/V, L23I, L24I, D30N, I47V/A, I50L/V, F53L/Y, I54V/L/M/A/T/S, L76V, V82A/T/F/S/C/M/L, I84V/A/C, N88D/S/T/G, L89V/T |
+
+Note Bien :
+L'observance
+
+USER: 
+### Contexte du patient:
+Code patient: 92605
+Nom patient: 
+Sexe: Féminin
+Date de naissance: 06/04/2001
+Historique thérapeutique: [{"arv": "AZT+3TC+EFV", "debut": "28/08/2007", "fin": "31/07/2008", "raison_changement": "Échec virologique"}, {"arv": "AZT+3TC+NVP", "debut": "31/07/2008", "fin": "09/04/2017", "raison_changement": "Échec virologique"}, {"arv": "ABC+3TC+LPV/R", "debut": "09/04/2017", "fin": "03/04/2022", "raison_changement": "Échec virologique"}, {"arv": "ABC+3TC+ATV/R", "debut": "03/04/2022", "fin": "inconnue", "raison_changement": "Échec virologique"}]
+Charges virales: [{"valeur": "303404", "date": "2017-09-05"}, {"valeur": "100599", "date": "2018-03-13"}, {"valeur": "123", "date": "2018-09-13"}, {"valeur": "58163", "date": "2020-01-08"}, {"valeur": "511", "date": "2020-07-15"}, {"valeur": "17237", "date": "2023-04-19"}]
+Taux de CD4: [{"valeur": "498", "date": "2011-01-17"}, {"valeur": "960", "date": "2012-12-11"}, {"valeur": "933", "date": "2013-08-30"}, {"valeur": "1243", "date": "2014-08-13"}, {"valeur": "72", "date": "2017-05-30"}]
+Observance: inconnu jours manqués
+Co-infections: [{"nom": "Tuberculose pulmonaire", "duree": ""}]
+
+### Mutations du VIH détectées:
+Section PR:
+    Mutations_majeures: ['I50L', 'V82A']
+    Mutations_accessoires: ['K20R', 'L10I', 'L33F', 'L63P', 'L89T', 'M36I']
+    Autres_mutations: ['A71V', 'E35D', 'H69Q', 'I13V', 'I15V', 'K14R', 'K45R', 'N37D', 'R41K']
+
+Section RT:
+    Mutations_majeures: [{'NRTIs': ['L74V', 'M184V', 'S68G', 'T215F']}, {'NNRTIS': ['G190A', 'K103S']}]
+    Mutations_accessoires: []
+    Autres_mutations: ['E203EK', 'E36D', 'E6D', 'K102KR', 'K11KQ', 'K122KE', 'K173A', 'K238R', 'K43A', 'Q174K', 'Q207D', 'R211K', 'T200A', 'T39K', 'V179I', 'V245E', 'V35T']
+
+
+### Scores d'efficacité des ARV face aux mutations:
+PR:
+    ATV/r: score=80, efficacité=Inactif
+    DRV/r: score=5, efficacité=Totalement actif
+    LPV/r: score=25, efficacité=Bonne efficacité résiduelle
+
+RT - NRTI:
+    ATV/r: score=80, efficacité=Inactif
+    DRV/r: score=5, efficacité=Totalement actif
+    LPV/r: score=25, efficacité=Bonne efficacité résiduelle
+
+RT - NRTI:
+    ABC: score=70, efficacité=Inactif
+    AZT: score=50, efficacité=Partiellement actif
+    FTC: score=60, efficacité=Inactif
+    3TC: score=60, efficacité=Inactif
+    TDF: score=0, efficacité=Totalement actif
+
+RT - NRTI:
+    ABC: score=70, efficacité=Inactif
+    AZT: score=50, efficacité=Partiellement actif
+    FTC: score=60, efficacité=Inactif
+    3TC: score=60, efficacité=Inactif
+    TDF: score=0, efficacité=Totalement actif
+
+RT - NNRTI:
+    DOR: score=0, efficacité=Totalement actif
+    EFV: score=90, efficacité=Inactif
+    ETR: score=10, efficacité=Bonne efficacité résiduelle
+    NVP: score=120, efficacité=Inactif
+    RPV: score=15, efficacité=Bonne efficacité résiduelle
+
+### Instruction complémentaire:
+
+
+MODEL: Le génotype du patient, mis à jour le 28 mars 2024, présente une mutation M46I associée à une résistance de faible degré aux IP/r (ATV/r et LPV/r) ; ainsi qu’une résistance de degrés variables aux INTIs et de degré élevé aux INNTIs de première génération (EFV et NVP). La mutation M184V, associée à une résistance de faible degré aux INTIs, est également présente, ce qui est favorable pour l’efficacité du TDF. L’AZT et le TDF montrent une bonne efficacité résiduelle, tandis que le TDF et ABC montrent une efficacité partielle. Le DTG, bien que son efficacité ne soit pas confirmée, pourrait être préservé. En raison de la virémie modérée (de l’ordre de 3 Log), une modification rapide de la thérapie est nécessaire. Les options de traitement optimisées sont TDF*+3TC+DTG ou TDF*+3TC+DRV/r. L’observance est cruciale pour le succès du traitement, et une actualisation des taux de lymphocytes T CD4 serait bénéfique pour la prévention/surveillance des risques d’émergence des maladies opportunistes. Un suivi virologique annuel est recommandé selon les directives nationales.
+
+USER: 
+### Contexte du patient:
+Code patient: 92605
+Nom patient: 
+Sexe: Féminin
+Date de naissance: 06/04/2001
+Historique thérapeutique: [{"arv": "AZT+3TC+EFV", "debut": "28/08/2007", "fin": "31/07/2008", "raison_changement": "Échec virologique"}, {"arv": "AZT+3TC+NVP", "debut": "31/07/2008", "fin": "09/04/2017", "raison_changement": "Échec virologique"}, {"arv": "ABC+3TC+LPV/R", "debut": "09/04/2017", "fin": "03/04/2022", "raison_changement": "Échec virologique"}, {"arv": "ABC+3TC+ATV/R", "debut": "03/04/2022", "fin": "inconnue", "raison_changement": "Échec virologique"}]
+Charges virales: [{"valeur": "303404", "date": "2017-09-05"}, {"valeur": "100599", "date": "2018-03-13"}, {"valeur": "123", "date": "2018-09-13"}, {"valeur": "58163", "date": "2020-01-08"}, {"valeur": "511", "date": "2020-07-15"}, {"valeur": "17237", "date": "2023-04-19"}]
+Taux de CD4: [{"valeur": "498", "date": "2011-01-17"}, {"valeur": "960", "date": "2012-12-11"}, {"valeur": "933", "date": "2013-08-30"}, {"valeur": "1243", "date": "2014-08-13"}, {"valeur": "72", "date": "2017-05-30"}]
+Observance: inconnu jours manqués
+Co-infections: [{"nom": "Tuberculose pulmonaire", "duree": ""}]
+
+### Mutations du VIH détectées:
+Section PR:
+    Mutations_majeures: ['I50L', 'V82A']
+    Mutations_accessoires: ['K20R', 'L10I', 'L33F', 'L63P', 'L89T', 'M36I']
+    Autres_mutations: ['A71V', 'E35D', 'H69Q', 'I13V', 'I15V', 'K14R', 'K45R', 'N37D', 'R41K']
+
+Section RT:
+    Mutations_majeures: [{'NRTIs': ['L74V', 'M184V', 'S68G', 'T215F']}, {'NNRTIS': ['G190A', 'K103S']}]
+    Mutations_accessoires: []
+    Autres_mutations: ['E203EK', 'E36D', 'E6D', 'K102KR', 'K11KQ', 'K122KE', 'K173A', 'K238R', 'K43A', 'Q174K', 'Q207D', 'R211K', 'T200A', 'T39K', 'V179I', 'V245E', 'V35T']
+
+
+### Scores d'efficacité des ARV face aux mutations:
+PR:
+    ATV/r: score=80, efficacité=Inactif
+    DRV/r: score=5, efficacité=Totalement actif
+    LPV/r: score=25, efficacité=Bonne efficacité résiduelle
+
+RT - NRTI:
+    ATV/r: score=80, efficacité=Inactif
+    DRV/r: score=5, efficacité=Totalement actif
+    LPV/r: score=25, efficacité=Bonne efficacité résiduelle
+
+RT - NRTI:
+    ABC: score=70, efficacité=Inactif
+    AZT: score=50, efficacité=Partiellement actif
+    FTC: score=60, efficacité=Inactif
+    3TC: score=60, efficacité=Inactif
+    TDF: score=0, efficacité=Totalement actif
+
+RT - NRTI:
+    ABC: score=70, efficacité=Inactif
+    AZT: score=50, efficacité=Partiellement actif
+    FTC: score=60, efficacité=Inactif
+    3TC: score=60, efficacité=Inactif
+    TDF: score=0, efficacité=Totalement actif
+
+RT - NNRTI:
+    DOR: score=0, efficacité=Totalement actif
+    EFV: score=90, efficacité=Inactif
+    ETR: score=10, efficacité=Bonne efficacité résiduelle
+    NVP: score=120, efficacité=Inactif
+    RPV: score=15, efficacité=Bonne efficacité résiduelle
+
+### Instruction complémentaire:
+
+
+MODEL: Le patient, codé 92605, est une femme née le 6 avril 2001, atteinte du VIH/SIDA, avec un historique de traitements antirétroviraux (ART) infructueux, notamment avec des combinaisons d’AZT, 3TC, EFV et NVP, suivies par ABC, 3TC et ATV/R. Actuellement, elle présente une charge virale modérée (3,034,04 copies/mL) et un taux CD4 de 72/mm³, indiquant une immunosuppression avancée.
+
+Génétiquement, le VIH du patient montre une mutation M46I, associée à une résistance de faible degré aux inhibiteurs de la protéase (IP/r) ATV/r et LPV/r, et une résistance variable aux inhibiteurs nucléosidiques de la transcriptase inverse (INTI) et aux inhibiteurs non nucléosidiques de la transcriptase inverse (INNTI) de première génération (EFV et NVP). La mutation M184V, associée à une résistance de faible degré aux INTI, est également présente, ce qui est favorable pour l’efficacité du TDF. L’AZT et le TDF montrent une bonne efficacité résiduelle, tandis que le TDF et ABC montrent une efficacité partielle. Le DTG, bien que son efficacité ne soit pas confirmée, pourrait être préservé.
+
+Compte tenu de l’efficacité totale du DRV/r, de la bonne efficacité résiduelle de l’ATV/r, du LPV/r et de l’AZT, et de l’efficacité partielle du TDF et ABC, dans un contexte de virémie modérée, une modification rapide de la thérapie est nécessaire. Les options de traitement optimisées sont TDF*+3TC+DTG ou TDF*+3TC+DRV/r. L’observance est cruciale pour le succès du traitement, et une actualisation des taux de lymphocytes T CD4 serait bénéfique pour la prévention/surveillance des risques d’émergence des maladies opportunistes. Un suivi virologique annuel est recommandé selon les directives nationales.
+
+USER: 
+### Contexte du patient:
+Code patient: 92605
+Nom patient: 
+Sexe: Féminin
+Date de naissance: 06/04/2001
+Historique thérapeutique: [{"arv": "AZT+3TC+EFV", "debut": "28/08/2007", "fin": "31/07/2008", "raison_changement": "Échec virologique"}, {"arv": "AZT+3TC+NVP", "debut": "31/07/2008", "fin": "09/04/2017", "raison_changement": "Échec virologique"}, {"arv": "ABC+3TC+LPV/R", "debut": "09/04/2017", "fin": "03/04/2022", "raison_changement": "Échec virologique"}, {"arv": "ABC+3TC+ATV/R", "debut": "03/04/2022", "fin": "inconnue", "raison_changement": "Échec virologique"}]
+Charges virales: [{"valeur": "303404", "date": "2017-09-05"}, {"valeur": "100599", "date": "2018-03-13"}, {"valeur": "123", "date": "2018-09-13"}, {"valeur": "58163", "date": "2020-01-08"}, {"valeur": "511", "date": "2020-07-15"}, {"valeur": "17237", "date": "2023-04-19"}]
+Taux de CD4: [{"valeur": "498", "date": "2011-01-17"}, {"valeur": "960", "date": "2012-12-11"}, {"valeur": "933", "date": "2013-08-30"}, {"valeur": "1243", "date": "2014-08-13"}, {"valeur": "72", "date": "2017-05-30"}]
+Observance: inconnu jours manqués
+Co-infections: [{"nom": "Tuberculose pulmonaire", "duree": ""}]
+
+### Mutations du VIH détectées:
+Section PR:
+    Mutations_majeures: ['I50L', 'V82A']
+    Mutations_accessoires: ['K20R', 'L10I', 'L33F', 'L63P', 'L89T', 'M36I']
+    Autres_mutations: ['A71V', 'E35D', 'H69Q', 'I13V', 'I15V', 'K14R', 'K45R', 'N37D', 'R41K']
+
+Section RT:
+    Mutations_majeures: [{'NRTIs': ['L74V', 'M184V', 'S68G', 'T215F']}, {'NNRTIS': ['G190A', 'K103S']}]
+    Mutations_accessoires: []
+    Autres_mutations: ['E203EK', 'E36D', 'E6D', 'K102KR', 'K11KQ', 'K122KE', 'K173A', 'K238R', 'K43A', 'Q174K', 'Q207D', 'R211K', 'T200A', 'T39K', 'V179I', 'V245E', 'V35T']
+
+
+### Scores d'efficacité des ARV face aux mutations:
+PR:
+    ATV/r: score=80, efficacité=Inactif
+    DRV/r: score=5, efficacité=Totalement actif
+    LPV/r: score=25, efficacité=Bonne efficacité résiduelle
+
+RT - NRTI:
+    ATV/r: score=80, efficacité=Inactif
+    DRV/r: score=5, efficacité=Totalement actif
+    LPV/r: score=25, efficacité=Bonne efficacité résiduelle
+
+RT - NRTI:
+    ABC: score=70, efficacité=Inactif
+    AZT: score=50, efficacité=Partiellement actif
+    FTC: score=60, efficacité=Inactif
+    3TC: score=60, efficacité=Inactif
+    TDF: score=0, efficacité=Totalement actif
+
+RT - NRTI:
+    ABC: score=70, efficacité=Inactif
+    AZT: score=50, efficacité=Partiellement actif
+    FTC: score=60, efficacité=Inactif
+    3TC: score=60, efficacité=Inactif
+    TDF: score=0, efficacité=Totalement actif
+
+RT - NNRTI:
+    DOR: score=0, efficacité=Totalement actif
+    EFV: score=90, efficacité=Inactif
+    ETR: score=10, efficacité=Bonne efficacité résiduelle
+    NVP: score=120, efficacité=Inactif
+    RPV: score=15, efficacité=Bonne efficacité résiduelle
+
+### Instruction complémentaire:
+
+
+MODEL: Cadre virologique compatible à un début d'échec à toutes les molécules du traitement antirétroviral en cours, caractérisé spécifiquement par la présence de la mutation M46I associée à une résistance de faible degré aux inhibiteurs de protéase (IP/r) tels qu'ATV/r et LPV/r. Les mutations détectées confèrent également des degrés variables de résistance aux inhibiteurs nucléosidiques de la transcriptase inverse (INTIs), avec une efficacité totale pour le DRV/r, une bonne efficacité résiduelle pour l'ATV/r et LPV/r, ainsi qu'une efficacité partielle pour l'AZT et le TDF. L'efficacité du DTG est présumée préservée sur la base de l'exposition relativement récente et d'un nombre limité de mutations additionnelles.
+
+Compte tenu de cette résistance, les options thérapeutiques optimales incluent soit TDF*+3TC+DTG (préférable) soit TDF*+3TC+DRV/r. L'utilisation concomitante du 3TC, bien qu'inefficace en soi, est essentielle pour maintenir la mutation M184V qui améliore l'efficacité du TDF et inhibe la réplication virale.
+
+Il est crucial de souligner l'importance d'une bonne observance pour le succès de ce nouveau traitement. La surveillance virologique doit être renforcée avec une mesure initiale de la charge virale à 12 semaines afin d'évaluer l'efficacité du traitement et viser à atteindre une charge virale indétectable. Un suivi virologique annuel, ainsi qu'une actualisation des taux de lymphocytes T CD4, sont recommandés pour anticiper les risques de maladies opportunistes.
+
+La tuberculose pulmonaire coexistant avec le VIH complique davantage la gestion du patient et nécessite une attention particulière dans l'élaboration de son plan thérapeutique.
