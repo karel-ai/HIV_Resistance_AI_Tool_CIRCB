@@ -8,7 +8,7 @@ from langchain_huggingface import HuggingFacePipeline
 from langchain_ollama import OllamaLLM
 
 # === 0) Chemins locaux ===
-MERGED_MODEL_PATH = r"F:\MODELES\Phi4_merged"
+MERGED_MODEL_PATH = r".\Phi4_merged"
 
 # Prompt systeme
 system_prompt = """
@@ -45,7 +45,7 @@ Une actualisation des taux de lymphocytes T CD4 serait bénéfique pour la prév
 """
 
 # Mémoire
-MEMORY_FILE = r"D:\docaivancity\PGE2\stage\IA_CIRCB\agent_circb\interpreteur\memoire.txt"
+MEMORY_FILE = r".\memoire.txt"
 if not os.path.exists(MEMORY_FILE):
     with open(MEMORY_FILE, "w", encoding="utf-8") as f:
         f.write("")
@@ -106,77 +106,36 @@ except Exception as e:
     tokenizer.pad_token = tokenizer.eos_token
 
 # === 3) Charger le modèle avec meilleure gestion d'erreurs ===
-offload_dir = r"F:\MODELES\phi4_offload"
+offload_dir = r".\phi4_offload"
 shutil.rmtree(offload_dir, ignore_errors=True)
 os.makedirs(offload_dir, exist_ok=True)
 
 model = None
 try:
-    # Essayer avec quantification 4-bit d'abord (moins gourmand)
-    print("🔄 Tentative de chargement avec quantification 4-bit...")
-    quant_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_use_double_quant=True,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.float16,
-    )
-    
+    # Essayer sans quantification mais avec gestion mémoire
+    print("🔄 Tentative sans quantification...")
     model = AutoModelForCausalLM.from_pretrained(
         MERGED_MODEL_PATH,
-        quantization_config=quant_config,
         device_map="auto",
         torch_dtype=dtype,
         trust_remote_code=True,
         low_cpu_mem_usage=True
     )
     model.eval()
-    print("✅ Modèle chargé avec quantification 4-bit")
+    print("✅ Modèle chargé sans quantification")
     
 except Exception as e:
-    print(f"❌ Erreur avec quantification 4-bit: {e}")
-    try:
-        # Essayer avec quantification 8-bit
-        print("🔄 Tentative avec quantification 8-bit...")
-        quant_config = BitsAndBytesConfig(load_in_8bit=True)
-        
-        model = AutoModelForCausalLM.from_pretrained(
-            MERGED_MODEL_PATH,
-            quantization_config=quant_config,
-            device_map="auto",
-            torch_dtype=dtype,
-            trust_remote_code=True,
-            low_cpu_mem_usage=True
-        )
-        model.eval()
-        print("✅ Modèle chargé avec quantification 8-bit")
-        
-    except Exception as e2:
-        print(f"❌ Erreur avec quantification 8-bit: {e2}")
-        try:
-            # Essayer sans quantification mais avec gestion mémoire
-            print("🔄 Tentative sans quantification...")
-            model = AutoModelForCausalLM.from_pretrained(
-                MERGED_MODEL_PATH,
-                device_map="auto",
-                torch_dtype=dtype,
-                trust_remote_code=True,
-                low_cpu_mem_usage=True
-            )
-            model.eval()
-            print("✅ Modèle chargé sans quantification")
-            
-        except Exception as e3:
-            print(f"❌ Erreur sans quantification: {e3}")
-            # Fallback: CPU seulement avec float32
-            print("🔄 Tentative sur CPU...")
-            model = AutoModelForCausalLM.from_pretrained(
-                MERGED_MODEL_PATH,
-                device_map="cpu",
-                torch_dtype=torch.float32,
-                trust_remote_code=True
-            )
-            model.eval()
-            print("✅ Modèle chargé sur CPU")
+    print(f"❌ Erreur sans quantification: {e}")
+    # Fallback: CPU seulement avec float32
+    print("🔄 Tentative sur CPU...")
+    model = AutoModelForCausalLM.from_pretrained(
+        MERGED_MODEL_PATH,
+        device_map="cpu",
+        torch_dtype=torch.float32,
+        trust_remote_code=True
+    )
+    model.eval()
+    print("✅ Modèle chargé sur CPU")
 
 # === 4) Pipeline HuggingFace avec paramètres optimisés ===
 try:
@@ -250,4 +209,5 @@ def generate_model_response(user_msg: str):
         print(f"Erreur lors de la génération de réponse : {e}")
         cleanup_memory()
         return "Je suis désolé, il y a eu une erreur."
+
 
