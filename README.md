@@ -19,7 +19,7 @@ Ce projet automatise **l’extraction de données patients** depuis des rapports
 ```
 📁 CIRCB_HIV_AI_2025/
 ├── fine_tuning_phi4.ipynb      # Fine-tuning du modèle Phi-4 Mini
-├── generation_interpretation.py # Génération locale des interprétations
+├── generate_interpretation.py # Génération locale des interprétations
 ├── generation_with_ollama.py    # Amélioration via Ollama
 ├── interface_final.py           # Interface utilisateur Streamlit
 ├── data.py                      # Pipeline ETL pour préparer les données
