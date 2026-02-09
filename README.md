@@ -105,6 +105,6 @@ Je tiens à exprimer ma gratitude à l’équipe du CIRCB, particulièrement au 
 
 * **Karel Elong** – Chef de projet junior IA (Stage CIRCB 2025).
 
-## 📜 Licence et usage
+## Licence et usage
 
 Ce projet est destiné à un usage **médical interne et recherche**. Toute diffusion doit respecter la **confidentialité des données patients** et les licences des modèles utilisés.
