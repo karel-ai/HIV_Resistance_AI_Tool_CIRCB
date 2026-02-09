@@ -1,23 +1,23 @@
-# 🧠 CIRCB – IA pour Rapports Cliniques VIH
+# CIRCB – IA pour Rapports Cliniques VIH
 
 Scripts et outils développés lors de mon stage au **CIRCB (Centre International de Référence Chantal Biya)**.
 Ce projet automatise **l’extraction de données patients** depuis des rapports Word et utilise des **LLMs (Phi-4 Mini, Phi-4 quantifié)** pour générer des interprétations cliniques de pharmacorésistance du VIH.
 
 ---
 
-## 📋 **Fonctionnalités**
+## **Fonctionnalités**
 
-* 📑 Extraction automatisée des informations patients et mutations (OCR et parsing `.docx`).
-* 🎛️ **Fine-tuning** de Phi-4 Mini avec LoRA/qLoRA pour réduire l’usage mémoire.
-* 🖥️ **Interface Streamlit** pour saisir, générer et corriger des rapports cliniques.
-* 📊 Pipeline ETL et scripts pour transformer les données en JSONL pour l’entraînement.
+* Extraction automatisée des informations patients et mutations (OCR et parsing `.docx`).
+* **Fine-tuning** de Phi-4 Mini avec LoRA/qLoRA pour réduire l’usage mémoire.
+* **Interface Streamlit** pour saisir, générer et corriger des rapports cliniques.
+* Pipeline ETL et scripts pour transformer les données en JSONL pour l’entraînement.
 
 ---
 
-## 🗂 **Arborescence**
+## **Arborescence**
 
 ```
-📁 CIRCB_HIV_AI_2025/
+CIRCB_HIV_AI_2025/
 ├── fine_tuning_phi4.ipynb       # Fine-tuning du modèle Phi-4 Mini
 ├── generate_interpretation.py   # Génération locale des interprétations
 ├── generate_with_ollama.py      # Amélioration via Ollama
@@ -30,7 +30,7 @@ Ce projet automatise **l’extraction de données patients** depuis des rapports
 
 ---
 
-## ⚙️ **Installation**
+## **Installation**
 
 1. **Cloner le dépôt**
 
@@ -56,7 +56,7 @@ Ce projet automatise **l’extraction de données patients** depuis des rapports
 
 ---
 
-## ▶️ **Utilisation**
+## **Utilisation**
 
 ### Fine-tuning du modèle
 
@@ -78,7 +78,7 @@ streamlit run interface_final.py
 
 ---
 
-## 🧰 **Technologies principales**
+## **Technologies principales**
 
 * [Transformers](https://huggingface.co/transformers/) (Fine-tuning Phi-4)
 * [BitsAndBytes](https://github.com/TimDettmers/bitsandbytes) (Quantification mémoire)
@@ -88,7 +88,7 @@ streamlit run interface_final.py
 
 ---
 
-## 📌 **Notes**
+## **Notes**
 
 * Destiné à un usage **local** pour préserver la confidentialité des données.
 * Les données patients doivent rester anonymisées avant utilisation.
@@ -96,12 +96,12 @@ streamlit run interface_final.py
 
 
 ---
-## ✨ **Remerciment**
+## **Remerciment**
 Je tiens à exprimer ma gratitude à l’équipe du CIRCB, particulièrement au Directeur Général le Professeur Alexis NDJOLO, à l’équipe du laboratoire de virologie sous la supervision du Dr FOKAM Joseph, le chef du laboratoire, et M. TAKOU Désiré, le Major du laboratoire. Je ne saurais terminer sans adresser mes sincères remerciements à tout le personnel du CIRCB pour leur disponibilité. 
 
 ---
 
-## ✨ **Auteure**
+## **Auteure**
 
 * **Karel Elong** – Chef de projet junior IA (Stage CIRCB 2025).
 
